@@ -1,0 +1,42 @@
+body {
+    background-color: #faf8fa;
+}
+
+h2 {
+    color: #343a40; /* Warna teks untuk heading */
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.742);
+}
+
+.btn {
+    width: 100%;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Warna saat hover */
+    transform: scale(1.01); /* Efek zoom */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.img-fluid {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    border: solid 2px #343a40;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.img-fluid:hover {
+    transform: rotate(-10deg);
+    transition: transform 1s ease;
+}
